@@ -8,7 +8,6 @@ public enum Weekend {
     public String getRus() {
         return rus;
     }
-
     Weekend(String rus){
         this.rus = rus;
     }
