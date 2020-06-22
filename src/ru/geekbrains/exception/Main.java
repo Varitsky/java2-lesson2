@@ -9,7 +9,9 @@ public class Main {
         try {
             calculateArray(array());
         } catch (CustomSizeException sizeException) {
+            System.out.println(sizeException.getMessage());
         } catch (CustomParseException parseException) {
+            System.out.println(parseException.getMessage());
         } finally {
             System.out.println("Сумма массива: " + calculateArray(array()));
         }
