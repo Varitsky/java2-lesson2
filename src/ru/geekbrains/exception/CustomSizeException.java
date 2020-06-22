@@ -6,5 +6,4 @@ public class CustomSizeException extends ArrayIndexOutOfBoundsException{
         super("Превышен или недостаточен размер массива 4х4, а у вас - " + message);
 
     }
-
 }

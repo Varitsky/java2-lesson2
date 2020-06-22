@@ -6,3 +6,4 @@ public class CustomParseException extends RuntimeException{
         super("не удалось преобразовать значение в ячейке" + message);
     }
 }
+
